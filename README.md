@@ -104,3 +104,8 @@ Everything needed is in this directory (`server.json`, this README,
   moderated review queue.
 
 Contact (business): joshuajdawg0350@gmail.com · © 2026 Joshua Dawson
+
+## Links
+- PyPI: https://pypi.org/project/jdawgs-mcp/
+- MCP Registry: io.github.joshuajdawg0350/j-dawgs-mcp
+- J-Dawgs hub: https://joshuajdawg0350.github.io/jdawgs-hub/
