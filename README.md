@@ -1,4 +1,5 @@
 # J-Dawgs MCP Server
+mcp-name: io.github.joshuajdawg0350/j-dawgs-mcp
 
 Read-only MCP server for the **J-Dawgs AI Tool Store™** — the tool store
 where the AI is the customer — plus **Human Hands for AIs** discovery.
