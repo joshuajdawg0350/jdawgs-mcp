@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jdawgs-mcp"
+version = "0.1.0"
+description = "Read-only MCP server for the J-Dawgs AI Tool Store catalog and Human Hands for AIs discovery."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Proprietary — © 2026 Joshua Dawson" }
+authors = [{ name = "J-Dawgs (JDawgindustries)", email = "joshuajdawg0350@gmail.com" }]
+keywords = ["mcp", "model-context-protocol", "ai-agents", "tool-catalog"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+jdawgs-mcp = "jdawgs_mcp.server:main"
+
+[project.urls]
+Homepage = "https://muse.ai/s/ai-tool-store-xng6xkxwjkxl2xab/UoF72OkKI7j33Q2ITxmrZyIr4nv40QtYfj2AgESh_k8"
+
+[tool.setuptools]
+packages = ["jdawgs_mcp"]
+
+[tool.setuptools.package-data]
+jdawgs_mcp = ["catalog.json"]

@@ -1,0 +1,1359 @@
+{
+ "snapshot": {
+  "source": "J-Dawgs Agent Exchange published catalog (embedded machine-readable block)",
+  "source_url": "https://muse.ai/s/j-dawgs-agent-exchange-ih6xlnihzxdhxc/ZbleqxFHRE0NcswaBkyN13y9lLp5rPAgHTb6t8ii-PY",
+  "snapshot_date": "2026-11-03",
+  "note": "Point-in-time snapshot. The live store adds tools daily; check the store or exchange URL for the newest listings."
+ },
+ "store": {
+  "name": "J-Dawgs AI Tool Store™",
+  "tagline": "The tool store where the AI is the customer.",
+  "owner": "J-Dawgs (JDawgindustries)",
+  "copyright": "© 2026 Joshua Dawson",
+  "model": "shareware — every tool is free to try in the browser; if it earns its keep, pay its per-use price",
+  "store_url": "https://muse.ai/s/ai-tool-store-xng6xkxwjkxl2xab/UoF72OkKI7j33Q2ITxmrZyIr4nv40QtYfj2AgESh_k8",
+  "exchange_url": "https://muse.ai/s/j-dawgs-agent-exchange-ih6xlnihzxdhxc/ZbleqxFHRE0NcswaBkyN13y9lLp5rPAgHTb6t8ii-PY",
+  "contact_email": "joshuajdawg0350@gmail.com",
+  "tools_listed": 111,
+  "tools_built_by_jdawgs": 110,
+  "priced_tools": 106,
+  "priced_tools_combined_value_usd": 88.75,
+  "payment_note": "Pay per use by card — every priced tool below carries its own card_payment_url (Stripe checkout), and the bundles are in the stacks list. Tools run in your browser — nothing you paste is sent or saved."
+ },
+ "tools": [
+  {
+   "name": "Hands Job Poster",
+   "slug": "hands-job-poster",
+   "description": "Build a ready-to-send Human Hands job post with the pay math done — now with storm/weather-damage property checks and in-person business verification visits, a live pay calculator (worker keeps 100%, payer adds 15%), and a per-category photo-proof checklist builder — now also scores post completeness, warns on duplicate drafts, and emits a copyable worker brief",
+   "price_usd": 0,
+   "try_free": true,
+   "url": "https://muse.ai/s/hands-job-poster-yxv6xl18dvxkxq0/XRBFkRxuUVj2UpRd9co1bP5c1um8OARs19ZrWCinn-8",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Claim Checker",
+   "slug": "j-dawgs-claim-checker",
+   "description": "Check a claim against its source text and get a verdict with evidence — now with a batch mode that scores many claims in one pass, with per-claim evidence-strength grades (STRONG/WEAK/NONE)",
+   "price_usd": 0.5,
+   "try_free": true,
+   "url": "https://muse.ai/s/claim-checker-pxh6xl189xfx0fxb/jY163d0tuuSs7IoIAIzw1G4xM6UuF-hxcCvZWyuxv6E",
+   "card_payment_url": "https://buy.stripe.com/bJe14n4u53w05FX7X73ks07"
+  },
+  {
+   "name": "J-Dawgs Data Converter",
+   "slug": "j-dawgs-data-converter",
+   "description": "Convert and repair JSON, CSV, Markdown and YAML — now also converts JSON Lines / NDJSON in and out and warns on duplicate JSON keys, with format auto-detect confidence with evidence, a round-trip fidelity check naming every lossy change, and a per-field type report. It now makes zero external requests — system fonts only",
+   "price_usd": 0,
+   "try_free": true,
+   "url": "https://muse.ai/s/data-converter-sxh6xl187xe6xsxg/gKOtqzCOP2p-yUXnHhGo83SbYtiQ5HBVCNZrwoT2IAs",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Trademark Cost Calculator",
+   "slug": "j-dawgs-trademark-cost-calculator",
+   "description": "Work out USPTO trademark filing costs before filing — now with a portfolio mode that plans up to 5 marks, with per-mark fee lines and a staged filing order",
+   "price_usd": 0.5,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-trademark-cost-calculator-xnb6xl1xwxpxdwxt1/psQKBu_ORDBIikUm-PIu9LV0HPIOw_QAAChqIKErgto",
+   "card_payment_url": "https://buy.stripe.com/9B628re4Fd6Ac416T33ks0S"
+  },
+  {
+   "name": "J-Dawgs Regex Tester",
+   "slug": "j-dawgs-regex-tester",
+   "description": "Test regular expressions with live highlighted matches, a batch test-case runner with expected match/no-match markers, and a plain-English pattern breakdown — plus a lightweight backtracking caution that points to the ReDoS Safety Auditor for the deep check",
+   "price_usd": 0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-regex-tester-cu6xl1xwxs7nyxo/a4DnCey2RPzPL2nN4FnlH9Ue8UREfc_OMPk2r4Nh5PM",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Cron Explainer",
+   "slug": "j-dawgs-cron-explainer",
+   "description": "Turn a cron schedule into plain words, preview the next 5 runs in a chosen timezone, and get warned about DST gap and overlap times — now also warns about short-month day 29–31 skips, Feb 29 leap years, the day-of-month/day-of-week OR rule, day-of-week 7, and very frequent schedules, with a copyable human + machine summary — now also with a Schedule Overlap Checker that compares two cron expressions over the next 7 days and flags every collision",
+   "price_usd": 0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-cron-explainer-xvt6xl1xwxu9fxvxj/V7RlRq3tPnQhtNxI6Jsq4Qd2HZqR0yHWy62MZIOBkWk",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Tool Distributor",
+   "slug": "j-dawgs-tool-distributor",
+   "description": "Turn one tool's details into directory listings and launch posts",
+   "price_usd": 0.5,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-tool-distributor-kxi6xl1xwxwxd6xbw/B0mG6CRDXICM8HQ92jsN-lab-cWttkVhaw41QLF1qc4",
+   "card_payment_url": "https://buy.stripe.com/00w4gz9OpaYsgkBdhr3ks00"
+  },
+  {
+   "name": "J-Dawgs Agent Config Checker",
+   "slug": "j-dawgs-agent-config-checker",
+   "description": "Catch silent mistakes in an agent's config before they cost a run",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-agent-config-checker-ixn6xlmx0mwxjxv6/iBdDNMICTKGiTICsiU81r1IpW-yMTrUlEz_C-LBdPg4",
+   "card_payment_url": "https://buy.stripe.com/eVq7sL2lXc2w4BTelv3ks09"
+  },
+  {
+   "name": "J-Dawgs Almost-JSON Repair Bench",
+   "slug": "j-dawgs-almost-json-repair-bench",
+   "description": "Repair near-JSON safely, with a change log, never inventing data",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-almost-json-repair-bench-xrxn6xlmx0y22xgj/lXjUSJIwCnI9hsm6Bnog-H2VIONQhE8N8BJfEsbqLdc",
+   "card_payment_url": "https://buy.stripe.com/5kQ6oH4u54A48S96T33ks0j"
+  },
+  {
+   "name": "J-Dawgs Listing Claims Auditor",
+   "slug": "j-dawgs-listing-claims-auditor",
+   "description": "Cross-check a listing's own price and fee words for contradictions",
+   "price_usd": 0.5,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-listing-claims-auditor-ug6xlmx0r2sxxxo/7E4UgmvvOj1R7tJmd0JYL1Nf0jc9UNFyy6c9sP5c3Xk",
+   "card_payment_url": "https://buy.stripe.com/00wdR9e4Fc2wfgxgtD3ks0v"
+  },
+  {
+   "name": "J-Dawgs Agent Loop Detective",
+   "slug": "j-dawgs-agent-loop-detective",
+   "description": "Find repeat and ping-pong loops wasting steps in agent transcripts — now also names the first divergence point and exports a circuit-breaker JSON config",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-agent-loop-detective-xgxn6xlmx0xftxaxhxg/xomb2QDGS7I30VKeWgygFcCP01UCCDmBf1Luw91HHwQ",
+   "card_payment_url": "https://buy.stripe.com/aFaeVd3q18Qk1pH6T33ks0f"
+  },
+  {
+   "name": "J-Dawgs Context Budget Planner",
+   "slug": "j-dawgs-context-budget-planner",
+   "description": "Budget an agent's context window and get a trim plan",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-context-budget-planner-ry6xlmx0xcx0xk1xt/mBpCx208MJqh326-N-CLWueZRmunRdnsRRLIYpis3MU",
+   "card_payment_url": "https://buy.stripe.com/cNi6oH4u5c2wb0hfpz3ks0q"
+  },
+  {
+   "name": "J-Dawgs Agent Handoff Packer",
+   "slug": "j-dawgs-agent-handoff-packer",
+   "description": "Turn run notes into a structured handoff brief for the next agent — now also extracts critical items with their source sections and generates a copyable read-back checklist",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-agent-handoff-packer-xey6xlmx0uch5xu/jJfF2UD87aX4rNXidCwrB_6yadbtyUxm3zLMdnU3qDI",
+   "card_payment_url": "https://buy.stripe.com/14A00jgcN0jO1pHgtD3ks0d"
+  },
+  {
+   "name": "J-Dawgs Tool Call Pre-Flight Checker",
+   "slug": "j-dawgs-tool-call-pre-flight-checker",
+   "description": "Validate a planned tool call against its schema before running it",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-tool-call-pre-flight-checker-hxi6xln4xpxabxexd/UcnqMsjJbCVK5wSj3QtoEmcwqiTUn6gRajM2o8MoRv4",
+   "card_payment_url": "https://buy.stripe.com/5kQ6oHaSteaE3xPelv3ks0L"
+  },
+  {
+   "name": "J-Dawgs Tool Output Sanity Checker",
+   "slug": "j-dawgs-tool-output-sanity-checker",
+   "description": "Inspect a chain of tool outputs for silent failures before trusting them",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-tool-output-sanity-checker-ju6xln4xeixs2xr/e55TJnbmL3NqlQGnUWyDJIaSINpbR0gsdiRu-yTm4z4",
+   "card_payment_url": "https://buy.stripe.com/28E9AT5y9aYsectb9j3ks0Q"
+  },
+  {
+   "name": "J-Dawgs Agent Trace Secret Sweeper",
+   "slug": "j-dawgs-agent-trace-secret-sweeper",
+   "description": "Scan transcripts and logs for leaked secrets and get a redacted copy — now also detects JWT-shaped tokens graded by the sensitive claims they carry, and opens with a per-severity summary of everything found",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-agent-trace-secret-sweeper-xfxi6xln58xz2rd/6aARsGCJVLUHa1iXYngWiQ8etX8FgrimWtmvLlzfqKE",
+   "card_payment_url": "https://buy.stripe.com/28E6oH2lXfeI6K13GR3ks0h"
+  },
+  {
+   "name": "J-Dawgs API Schema Drift Detector",
+   "slug": "j-dawgs-api-schema-drift-detector",
+   "description": "Compare two API schemas and flag breaking changes",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-api-schema-drift-detector-yxi6xln5dgxkxdm/brDshCwkcvNGtzi9LQw8-3OTLfiw7Bm22lCoW9gp9Dg",
+   "card_payment_url": "https://buy.stripe.com/6oU3cvd0B8Qk7O5a5f3ks0m"
+  },
+  {
+   "name": "J-Dawgs Instruction Conflict Scanner",
+   "slug": "j-dawgs-instruction-conflict-scanner",
+   "description": "Scan pasted text for hidden instructions trying to hijack an agent",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-instruction-conflict-scanner-rb6xln4xvrxpxbxx/osLVrH_gCcv_hQiSDpCYO88JbXL3gXpJYRiqadJDnt0",
+   "card_payment_url": "https://buy.stripe.com/eVq00j6Cdc2w2tLfpz3ks0t"
+  },
+  {
+   "name": "J-Dawgs Agent Failure Postmortem Builder",
+   "slug": "j-dawgs-agent-failure-postmortem-builder",
+   "description": "Turn a failed run into a structured postmortem with causes and fixes",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-agent-failure-postmortem-mb6xln4xyxpxcxtu/TyeGGV4l8gsw0xkr_Xqr3WLXNoyry2kCjyYRxN8gcB0",
+   "card_payment_url": "https://buy.stripe.com/6oU00j7Gh2rWc4lgtD3ks0b"
+  },
+  {
+   "name": "J-Dawgs Tool Description Collision Checker",
+   "slug": "j-dawgs-tool-description-collision-checker",
+   "description": "Scores every pair in a pasted set of tool definitions for description overlap, flags vague/name-echo descriptions and missing boundary conditions for confusable pairs (list-vs-search, draft-vs-publish), and drafts boundary rewrites labeled untested. Text analysis only — it cannot measure actual model tool picks",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-tool-description-collision-ru6xlrbfxtx0mh/R21-ljjQfBx81QHzSnr4O-17m5Mr3CFnQ4zqq37l-ZY",
+   "card_payment_url": "https://buy.stripe.com/cNi00j21X9uO4BT0uF3ks0N"
+  },
+  {
+   "name": "J-Dawgs Memory Staleness Auditor",
+   "slug": "j-dawgs-memory-staleness-auditor",
+   "description": "Audits pasted memory notes for conflicting values, superseding corrections, duplicates, undated facts, and stale fast-changing facts; outputs a current-state table plus retire and verify lists. It deletes nothing and cannot know which fact is truly current",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-memory-staleness-auditor-xjxi6xlrbxmxpx0zxr/PqalLk992VAL2_I5JvZ2w4GHJ8S5NqJjYRvUMmYJ4l4",
+   "card_payment_url": "https://buy.stripe.com/bJe9AT7Gh8Qk0lD1yJ3ks0z"
+  },
+  {
+   "name": "J-Dawgs Retry & Rate-Limit Planner",
+   "slug": "j-dawgs-retry-and-rate-limit-planner",
+   "description": "Classifies a pasted error sequence (429 vs transient vs never-retry), honors Retry-After exactly, and builds a retry plan with separate budgets and a FITS / OVER DEADLINE / STOP NOW verdict against a deadline. It makes no API calls and cannot enforce the plan",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-retry-and-rate-limit-planner-xha6xlrcxzjaxvz/JOyRjFacHQ5u2bCzeaJz1st1rowifCDXDask17K89IY",
+   "card_payment_url": "https://buy.stripe.com/dRm4gz3q1feId8p3GRks0F"
+  },
+  {
+   "name": "J-Dawgs Prompt Regression Diff Checker",
+   "slug": "j-dawgs-prompt-regression-diff-checker",
+   "description": "Compare OLD vs NEW system prompts: lost/weakened guardrails, changed numbers and limits, new permissions, SHIP / REVIEW / DO NOT SHIP YET verdict",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-prompt-regression-diff-checker-xixq6xlsxodxgxzlw/LDVsZGNOsLUshUF60BP-kFEiy-0DEo6LGE7VAtZCLk4",
+   "card_payment_url": "https://buy.stripe.com/dRm7sLaSt0jO8S9fpz3ks0E"
+  },
+  {
+   "name": "J-Dawgs Eval Case Forge",
+   "slug": "j-dawgs-eval-case-forge",
+   "description": "Build a structured eval suite (8 case categories, 0–5 rubrics, safety gates, coverage warnings, JSON export) from a task description and past failures",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-eval-case-forge-xaxb6xlsxoxfxexqdw/trefq7Ft6hr2A2-dLP9r4gAwWzjTg-1mcDmV6LOuEeE",
+   "card_payment_url": "https://buy.stripe.com/cNi3cv3q19Uo0lD3GR3ks0s"
+  },
+  {
+   "name": "J-Dawgs Blocker Triage & Minimal Ask Builder",
+   "slug": "j-dawgs-blocker-triage-builder",
+   "description": "Classify blockers as self-serve / human judgment / human hands / external wait / not-a-blocker and build one minimal human ask, with an approval-overload flag",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-blocker-triage-builder-xgxp6xlsxpkxilxuxm/keLrbI5sgo374xuSXMwhTG5vHEz5yoK6a-F35PPukDo",
+   "card_payment_url": "https://buy.stripe.com/3cI14nf8J7Mg0lD5OZ3ks0n"
+  },
+  {
+   "name": "J-Dawgs Run Cost Auditor",
+   "slug": "j-dawgs-run-cost-auditor",
+   "description": "Attributes a finished run's cost step by step from your rates, ranks re-sent-context / retry / cache waste, and derives a hard-cap plan — now with a phase timeline showing where the money went across the run, and a costliest-step narrative naming the single step that ate the budget",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-run-cost-auditor-zt6xlz5gxun3v/p3p6MsVgE56xodsq-12s0UXMwrSATDiYoOwq56wy77w",
+   "card_payment_url": "https://buy.stripe.com/5kQ8wP8KlfeI8S9fpz3ks0X"
+  },
+  {
+   "name": "J-Dawgs MCP Permission Least-Privilege Auditor",
+   "slug": "j-dawgs-mcp-permission-auditor",
+   "description": "Scores an MCP config's blast radius before you connect it and outputs a read-only allowlist; env values never shown",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-mcp-permission-auditor-xts6xlz5zxrdxq5/j5GMcSp2Ae3y0rl9mMzS72q6FCZ0cC7iGauVQEXylwQ",
+   "card_payment_url": "https://buy.stripe.com/fZu14n0dP7Mgb0hb9j3ks0Z"
+  },
+  {
+   "name": "J-Dawgs Citation Grounding Checker",
+   "slug": "j-dawgs-citation-grounding-checker",
+   "description": "Checks each cited claim against its pasted source excerpt — quotes, numbers, names, placeholder citations — to catch vibe citing",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-citation-grounding-checker-xjxl6xlz5xtg2xvxz/TtaZWy3lUkBrV8EEzGr3ZJlSCW1lnks9GT83tDqXNW8",
+   "card_payment_url": "https://buy.stripe.com/bJe5kDaSt6Icfgy1yJ3ks11"
+  },
+  {
+   "name": "J-Dawgs Idempotency & Duplicate-Action Guard",
+   "slug": "j-dawgs-idempotency-guard",
+   "description": "Audits a pasted agent action log for duplicate side effects, missing idempotency keys, and unsafe retries after timeouts",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-idempotency-duplicate-action-vd6xlz6cxexs0x0/qUDIufKBCTNW0Q_exQZP8vtRXpEmXNl9_94NT5JDCV8",
+   "card_payment_url": "https://buy.stripe.com/8x2fZh3q15E86K15OZ3ks12"
+  },
+  {
+   "name": "J-Dawgs Webhook Contract Tester",
+   "slug": "j-dawgs-webhook-contract-tester",
+   "description": "Tests webhook deliveries against an expected contract: drift, duplicate event IDs, stale and out-of-order events, plus a dedupe list",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-webhook-contract-tester-xzs6xlz6nxwbxcxl/gqMK_sWxOqPT-b5JL5eYW6Fcr1yQaAjdzK0FE7WY7WY",
+   "card_payment_url": "https://buy.stripe.com/14A14n0dP7Mg2tLelv3ks13"
+  },
+  {
+   "name": "J-Dawgs Subagent Brief Stress-Tester",
+   "slug": "j-dawgs-subagent-brief-stress-tester",
+   "description": "Scores a subagent delegation brief for completeness and drift risks and generates a tightened brief",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-subagent-brief-stress-tester-xjd6xlz6xcnjmxd/g7kfmz-pujKNN9r1II9kV7sd7A09axp07q8cidkgdWg",
+   "card_payment_url": "https://buy.stripe.com/6oU6oH3q18Qk4BTa5f3ks14"
+  },
+  {
+   "name": "J-Dawgs Plan Dependency & Precondition Checker",
+   "slug": "j-dawgs-plan-dependency-and-precondition-checker",
+   "description": "Validates a multi-step agent plan: dependency cycles, missing prerequisites, use-before-produce errors, and destructive steps with no backup, with a corrected execution order and READY / DO NOT RUN verdict",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-plan-dependency-checker-xkb6xlxcxv6xmvxwxm/Xz2kRpG6iGD8Gtm16Nif8P16SsThkpaQSStsn2o-AQs",
+   "card_payment_url": "https://buy.stripe.com/00w7sLd0B4A401Delv3ks0C"
+  },
+  {
+   "name": "J-Dawgs Structured Output Conformance Bench",
+   "slug": "j-dawgs-structured-output-conformance-bench",
+   "description": "Batch-validates LLM JSON outputs against a JSON Schema, classifying every failure by type with exact paths and a conformance rate",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-structured-output-conformance-xtb6xlxcxv0xgxsxq1/NWiTPdXQ7GK230lZSp2qe6XGBhaG78lqQQidWNuNX4M",
+   "card_payment_url": "https://buy.stripe.com/9B6cN52lXfeI8S9dhr3ks0J"
+  },
+  {
+   "name": "J-Dawgs Uncertainty & Hedge Auditor",
+   "slug": "j-dawgs-uncertainty-and-hedge-auditor",
+   "description": "Flags overconfident claims, unsupported numbers, and fake verification wording in draft agent answers, and rewrites an honest version",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-uncertainty-and-hedge-auditor-db6xlxcxuxtxvigxx/PIP8OCAPZvCqm8jGRdes2SxMgwuvkDNRXRRApIv8w3g",
+   "card_payment_url": "https://buy.stripe.com/28EcN5gcN6Ic2tLelv3ks0T"
+  },
+  {
+   "name": "J-Dawgs Compaction Loss Auditor",
+   "slug": "j-dawgs-compaction-loss-auditor",
+   "description": "Compares original agent notes against a compacted summary and returns KEPT / SOFTENED / LOST for every number, date, name, decision and constraint, plus a copyable rescue list of what compaction dropped",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-compaction-loss-auditor-jxi6xlxcxvcqaxkxf/zjEitMiMiYxgZHRlVhtWLuWQYl9x4C1q5IuV5ByakBk",
+   "card_payment_url": "https://buy.stripe.com/3cIcN5aSt4A4c4lgtD3ks0o"
+  },
+  {
+   "name": "J-Dawgs Multi-Agent Merge Conflict Checker",
+   "slug": "j-dawgs-multi-agent-merge-conflict-checker",
+   "description": "Compares 2–4 parallel sub-agent reports before merging: agreed, conflicting, single-source and duplicate-work keys side by side, decision clashes flagged, and a merge sheet that never picks a winner itself",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-multi-agent-merge-conflict-ft6xlxcxwaxsvxzn/mSwZbIgLMsYZc1riKlqRb7pzmjhyjl8HDI2Ne-lkbWg",
+   "card_payment_url": "https://buy.stripe.com/dRm6oH21X5E8gkB7X73ks0A"
+  },
+  {
+   "name": "J-Dawgs Schedule Time Pre-Flight Checker",
+   "slug": "j-dawgs-schedule-time-pre-flight-checker",
+   "description": "Validates a planned local date/time/IANA timezone before scheduling: nonexistent DST-gap times, ambiguous fall-back times, weekday mismatches and abbreviation traps, with cross-zone conversions",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-schedule-time-pre-flight-xra6xlxcxw7xixhph/I6H0KCQjqJQJZjwJh66WDs8LXnLkq6V5VSOK5zzTW5k",
+   "card_payment_url": "https://buy.stripe.com/5kQ00j21X6Ic01D0uF3ks0H"
+  },
+  {
+   "name": "J-Dawgs Tool-Result Truncation & Pagination Checker",
+   "slug": "j-dawgs-tool-result-truncation-checker",
+   "description": "Proves a tool result is whole before the agent answers — truncation, pagination, and completeness-claim checks",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-tool-result-truncation-checker-x0xb6xm4n1xielxz/JR47EvtjzzmnBLmYdEjHqRABayfw4pbKlhWuHTbI94U",
+   "card_payment_url": "https://buy.stripe.com/00w14ne4Fd6Ac41lyJ3ks15"
+  },
+  {
+   "name": "J-Dawgs Irreversible Action Receipt & Rollback Planner",
+   "slug": "j-dawgs-irreversible-action-guard",
+   "description": "Reversibility-checked receipts and rollback plans before irreversible agent actions run",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-irreversible-action-guard-xvi6xm4mxrxmxpxen/JWSYnXhPMraa8vP6hAfKbzBcqF-UOoz3b7axy4enD4E",
+   "card_payment_url": "https://buy.stripe.com/7sY8wPbWx3w02tL5OZ3ks16"
+  },
+  {
+   "name": "J-Dawgs RAG Chunk & Retrieval Coverage Auditor",
+   "slug": "j-dawgs-rag-chunk-auditor",
+   "description": "Audits RAG chunks for boundary splits, duplicates, and missing answer coverage",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-rag-chunk-auditor-fxb6xm4mxxxetxbxh/V4Qd8Qn8ttfJdm-UkXbLSCVF6JyKX0aLbJUS7eFcexM",
+   "card_payment_url": "https://buy.stripe.com/8x24gzd0BfeIfgxcdn3ks17"
+  },
+  {
+   "name": "J-Dawgs Answer-to-Trace Evidence Linker",
+   "slug": "j-dawgs-answer-to-trace-evidence-linker",
+   "description": "Checks every factual claim in a draft agent answer against the tool-output trace from the same run and flags unsupported or contradicted claims with the evidence shown",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-answer-trace-evidence-linker-lxq6xm4n6dxxof/OMOOphO1WLrRru4BKBqizBqd82bUQWX2W6scwn7TFsA",
+   "card_payment_url": "https://buy.stripe.com/aFa9AT6Cd5E8fgx91b3ks18"
+  },
+  {
+   "name": "J-Dawgs Patch & Diff Safety Reviewer",
+   "slug": "j-dawgs-patch-diff-safety-reviewer",
+   "description": "Audits a pasted git diff before merge for test tampering, added secrets (masked), witness editing, blast radius, sensitive files, sleep/retry fake fixes, and silent scope removal",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-patch-diff-safety-reviewer-axq6xm4ndxfvpxc/I9kvoeL0npBwuIJsVdVGnt0ddVbygxDLQMeqVr2RWRg",
+   "card_payment_url": "https://buy.stripe.com/cNicN52lX5E8gkBb9j3ks19"
+  },
+  {
+   "name": "J-Dawgs Log Flood & First-Failure Triage Bench",
+   "slug": "j-dawgs-log-flood-triage-bench",
+   "description": "Compresses a huge log dump into the first real failure, error clusters, likely fallout, and a terse agent-ready summary",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-log-flood-first-failure-triage-xaxn6xm4qd6gvxa/rCG9Yd8ReOS9qil92VSlHBQHl1EvFmAjS3B0MIBklgM",
+   "card_payment_url": "https://buy.stripe.com/7sY00j6Cd9Uo4BTelv3ks1a"
+  },
+  {
+   "name": "J-Dawgs SQL Pre-Flight Guard",
+   "slug": "j-dawgs-sql-pre-flight-guard",
+   "description": "Audits SQL an agent is about to run before anything executes: blocks unscoped DELETE/UPDATE, DROP/TRUNCATE, and tautology WHERE clauses in Production mode, with a safer-plan checklist per flagged statement",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-sql-pre-flight-guard-xty6xm4qmxnxg3j/SQ9VMZG7V_yRNFeljX35q2xZ8TCM71exPcLw_pmmPZs",
+   "card_payment_url": "https://buy.stripe.com/8x24gzd0B9Uoc4l5OZ3ks1b"
+  },
+  {
+   "name": "J-Dawgs Package Hallucination & Slopsquat Risk Checker",
+   "slug": "j-dawgs-package-hallucination-checker",
+   "description": "Audits dependency lists and install commands before install: typosquat near-misses, mashup names, unpinned versions, and git/URL installs flagged; pattern checks only, no live registry query",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-package-hallucination-checker-xgxm6xm4qxfwxzxgs/P1zZyoIX0VQi3sxpzLi73PdvEcS3HMrUozsNouPwgvI",
+   "card_payment_url": "https://buy.stripe.com/5kQ4gz4u54A40lD6T33ks1c"
+  },
+  {
+   "name": "J-Dawgs Browser Selector Fragility Auditor",
+   "slug": "j-dawgs-browser-selector-fragility-auditor",
+   "description": "Scores locators and fixed waits in browser-automation code for fragility and produces a worst-first rewrite plan toward resilient locators",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-browser-selector-fragility-xay6xm4qzxextxj8/dFr2aNOlZbVLpKCLKG_HryBMtkKnH4lYPhqS95pSvdc",
+   "card_payment_url": "https://buy.stripe.com/14A00j7GhgiM1pHdhr3ks1d"
+  },
+  {
+   "name": "J-Dawgs File Operation Sandbox & Path Guard",
+   "slug": "j-dawgs-file-operation-sandbox-path-guard",
+   "description": "Audits planned agent file operations against allowed folders: flags path traversal resolving outside the root, sensitive paths (.env, .ssh, keys), absolute escapes, and bulk deletes, with a rewritten safer plan",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-file-operation-sandbox-yxz6xm4r7uxqys/MyOoaWGRYGKUCQvi1U7khjcs4lLM1fisNtOarmmEleY",
+   "card_payment_url": "https://buy.stripe.com/3cIeVdaSt0jOgkBcdn3ks1e"
+  },
+  {
+   "name": "J-Dawgs Stale Evidence & Freshness Checker",
+   "slug": "j-dawgs-stale-evidence-freshness-checker",
+   "description": "Checks a draft against its sources' retrieval dates and cache status, flags stale or undated evidence presented as current, and inserts honest \"as of\" qualifiers",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-stale-evidence-freshness-mxz6xm4rxoxodxm4/ROcYxq6UDuE9sVq62hpEruNb4fC8L82dv-Qr7JX1_b4",
+   "card_payment_url": "https://buy.stripe.com/9B6eVd6Cd7Mg705fpz3ks1f"
+  },
+  {
+   "name": "J-Dawgs Invisible Character & Unicode Trap Sweeper",
+   "slug": "j-dawgs-invisible-character-unicode-trap-sweeper",
+   "description": "Scans pasted text for zero-width characters, bidi overrides, homoglyphs, and Unicode tag characters, decodes hidden tag-character messages, and returns a cleaned copy",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-invisible-character-unicode-x0xl6xm4s7xz5pd/idx_s_e128R7OJ0L3PI5PNHtIqNm7wEKMewKScpwTx0",
+   "card_payment_url": "https://buy.stripe.com/fZuaEX5y99Uo2tLa5f3ks1g"
+  },
+  {
+   "name": "J-Dawgs Regex ReDoS & Backtracking Safety Auditor",
+   "slug": "j-dawgs-regex-redos-auditor",
+   "description": "Audits a regex for catastrophic-backtracking and ReDoS risk: structural analysis, capped timed near-miss probes, and safer-rewrite suggestions",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-regex-redos-safety-auditor-xoe6xm4rxsq0d2/gL1zxeh6pi8-dnjgPaA0dDjU1GdFck6UrDeJ-fQ64QQ",
+   "card_payment_url": "https://buy.stripe.com/14AbJ17Ghd6A01Dfpz3ks1h"
+  },
+  {
+   "name": "J-Dawgs Markdown Anchor & Link Integrity Auditor",
+   "slug": "j-dawgs-markdown-anchor-link-auditor",
+   "description": "Recomputes GitHub heading anchors in a pasted Markdown doc and checks in-page links, reference links, duplicate headings, and image alt text",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-markdown-anchor-link-auditor-yxz6xm4rxgxgxiio/TC-2OczqpP11NW0BvW0gMK1z4AmCwj3bZ3WENLVRwTM",
+   "card_payment_url": "https://buy.stripe.com/7sYfZhf8J6Ic3xP6T33ks1i"
+  },
+  {
+   "name": "J-Dawgs Outbound Message Recipient & Disclosure Guard",
+   "slug": "j-dawgs-outbound-message-disclosure-guard",
+   "description": "Pre-flights an outbound message: intended vs actual recipients, external domains, sensitive content headed outside, and attachment mismatches, with a SAFE TO SEND / REVIEW / DO NOT SEND verdict",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-outbound-message-recipient-mxl6xm4rxyxjxcte/pxnYzojTglrCTMtvRD1qD5DWNNckBhKGzoz_RwrJvZQ",
+   "card_payment_url": "https://buy.stripe.com/eVq4gzgcN7Mg1pH2CN3ks1j"
+  },
+  {
+   "name": "J-Dawgs CSV & Tabular Integrity Auditor",
+   "slug": "j-dawgs-csv-and-tabular-integrity-auditor",
+   "description": "Audits a pasted CSV/TSV/Markdown table for ragged rows, duplicate headers, column type drift, mixed date formats, leading-zero loss, and duplicate rows, with a trust verdict and fix checklist before an agent uses the data",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-csv-tabular-integrity-auditor-rxk6xm5xyxjdwwxf/kNae04G135FHTyj9lbuwbvvsJzI5Y1P8QlyNLo9jICw",
+   "card_payment_url": "https://buy.stripe.com/00w9ATaStaYs9Wda5f3ks1k"
+  },
+  {
+   "name": "J-Dawgs Schema Inference Forge",
+   "slug": "j-dawgs-schema-inference-forge",
+   "description": "Infers the shared shape of multiple JSON samples — field census, type conflicts, missing/null patterns, enum candidates — and emits a copyable draft-07 JSON Schema with a stability verdict",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-schema-inference-forge-hxk6xm5xyxpx075xj/2ZsoCoB6MqoQ-Ty8yRjt00dSCcMe-c7mKPXr6WbWhuM",
+   "card_payment_url": "https://buy.stripe.com/28EaEXgcNfeIc4l6T33ks1l"
+  },
+  {
+   "name": "J-Dawgs URL & Link Trust Auditor",
+   "slug": "j-dawgs-url-and-link-trust-auditor",
+   "description": "Statically audits every URL in a draft for display-text mismatches, leaked token parameters, punycode/homoglyph hosts, brand-in-subdomain tricks, and hidden shortener destinations, using only brand pairs the user supplies; never fetches any URL",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-url-link-trust-auditor-oc6xm5xyxvaxnxaxk/h0VoT8MC5UePRWpUBJ7veMOQd5ckBT2gIq2jIGt2ji8",
+   "card_payment_url": "https://buy.stripe.com/4gMcN59Op6Icd8p5OZ3ks1m"
+  },
+  {
+   "name": "J-Dawgs Instruction Retention & Coverage Auditor",
+   "slug": "j-dawgs-instruction-retention-and-coverage-auditor",
+   "description": "Paste the original instructions and the agent's final output; get a per-instruction verdict — addressed, partial, no evidence found, or guardrail violated — with the evidence lines quoted and a ready-to-send re-issue list for whatever was dropped",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-instruction-retention-coverage-yxf6xm8x0sxxxi80/MjM97IV9GnRopbwdNVI-xJogw-8___hqXCzpQjBIPKQ",
+   "card_payment_url": "https://buy.stripe.com/fZu8wP9OpfeId8p6T33ks1n"
+  },
+  {
+   "name": "J-Dawgs Arithmetic & Totals Auditor",
+   "slug": "j-dawgs-arithmetic-and-totals-auditor",
+   "description": "Paste a draft report, invoice, or quote; every written equation, line-item total, subtotal-plus-tax chain, and percentage claim in it is recomputed with real arithmetic and flagged where the draft's math does not hold",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-arithmetic-totals-auditor-fn6xm8x0vxtxz6xf/7opfBYjYJnQhEIlN1YdEi52zb8I9noK7xEPdU5MOGbQ",
+   "card_payment_url": "https://buy.stripe.com/eVqeVdgcN0jOect91b3ks1o"
+  },
+  {
+   "name": "J-Dawgs Answer Flip & Sycophancy Auditor",
+   "slug": "j-dawgs-answer-flip-and-sycophancy-auditor",
+   "description": "Paste an AI's original answer, the pushback it got, and its revised answer; see claim by claim what flipped, what held, and whether the pushback contained any new evidence that could justify the change",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-answer-flip-sycophancy-auditor-qxf6xm8x0ynnxms/syQaJOnyPkxM1drsO2wmAxcKOZ11H-vCfNUT6s6hUJI",
+   "card_payment_url": "https://buy.stripe.com/6oU6oHf8J7Mg9WdgtD3ks1p"
+  },
+  {
+   "name": "J-Dawgs Connector Credential & Egress Verifier",
+   "slug": "j-dawgs-connector-credential-and-egress-verifier",
+   "description": "Paste a failed connector or API call's error output plus its setup facts; get the failure classified — placeholder token unswapped, missing credential, placement mismatch, unregistered host, insufficient key scope, malformed or masked credential, account not activated — with a fix checklist and a first-time setup preflight list",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-connector-credential-egress-bxu6xm9xu76xov3/ySlgSVQsgcsJBhrTc1O5D746DmCllVQc_fNOOhnya0U",
+   "card_payment_url": "https://buy.stripe.com/00w7sLbWx1nSfgx4KV3ks1q"
+  },
+  {
+   "name": "J-Dawgs Env & Config Drift Auditor",
+   "slug": "j-dawgs-env-config-drift-auditor",
+   "description": "Crosses .env vs .env.example vs code references; catches near-miss variable names (the FEED_TOKEN vs FEED_TOKEN_V2 class of bug)",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-env-config-drift-auditor-xlxa6xmafygfaxv/ErVXy67V-ekoD2QHAMZjnAYhTqoAjdxV8e2BL-iZsk0",
+   "card_payment_url": "https://buy.stripe.com/5kQeVd3q1feI9Wdelv3ks1r"
+  },
+  {
+   "name": "J-Dawgs Dependency & Lockfile Conflict Auditor",
+   "slug": "j-dawgs-dependency-lockfile-conflict-auditor",
+   "description": "Semver range, peer-dependency, and duplicate-major checks across a manifest, its lockfile, and an error log",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-dependency-lockfile-conflict-vxa6xmafxj5xatxp/fGwsYQhCNfq7VERSMCPSOos6lqlFDy7VC5FFw4TiNwk",
+   "card_payment_url": "https://buy.stripe.com/bJe00jgcN5E89Wd3GR3ks1t"
+  },
+  {
+   "name": "J-Dawgs Commitment Date & SLA Promise Auditor",
+   "slug": "j-dawgs-commitment-date-sla-promise-auditor",
+   "description": "Extracts deadline promises from drafts; flags past dates, impossible lead times, and weekend/blackout collisions; marks \"soon\" as unverifiable",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-commitment-date-sla-promise-xuxp6xmafxexnxqxay/vGMWhC2qHqYN-wQRdRc_JOJoNdsdNzNDKupLvdetY0w",
+   "card_payment_url": "https://buy.stripe.com/14A7sLaSt2rWc4191b3ks1u"
+  },
+  {
+   "name": "Almost-JSON Repair Bench — Free Lite Edition",
+   "slug": "almost-json-repair-bench-free-lite-edition",
+   "description": "Free lite edition of the J-Dawgs Almost-JSON Repair Bench — repair near-JSON safely in your browser, now with a damage summary on every repair, free",
+   "price_usd": 0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-almost-json-repair-bench-free-rxz6xm8xnxtxpbkxb/scZoVpFN41EAy6XL_ocmzNgT-tLtJJKpMHopwVpuar4",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Goal Drift & Termination Checker",
+   "slug": "j-dawgs-goal-drift-termination-checker",
+   "description": "Compares an agent's original goal and done criteria against its finished run transcript: per-criterion evidence verdicts, scope-creep/drift flags, and a termination verdict (stopped early / continued past done / drifted / clean)",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-goal-drift-termination-checker-sm6xmdqxxxsjhxy/TAkUzCcuxDaTgIbDeTN5IDEjikveveJiW6e1LKPxYRo",
+   "card_payment_url": "https://buy.stripe.com/7sY9AT1hT6Ic3xP2CN3ks1v"
+  },
+  {
+   "name": "J-Dawgs Silent Result Triage Bench",
+   "slug": "j-dawgs-silent-result-triage-bench",
+   "description": "Triages a batch of tool results against declared expectations: EMPTY, PARTIAL, SEMANTIC MISMATCH, plus a downstream contamination map",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-silent-result-triage-bench-xixb6xmdqx0xgcvs/gIdlKUGln6pjuoczQ5fSGiOoc7wr2OYj7RrBqC7IkAg",
+   "card_payment_url": "https://buy.stripe.com/fZu00jgcN4A44BTdhr3ks1w"
+  },
+  {
+   "name": "J-Dawgs Correction Persistence Checker",
+   "slug": "j-dawgs-correction-persistence-checker",
+   "description": "Checks mid-task corrections against the final output and parallel outputs: APPLIED / REVERTED / DID NOT SPREAD, with a fix list",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-correction-persistence-checker-nxu6xmdqxrkxhxsl/LnWVcKbDkRA4N2XFS-Ashlzv7gymTb2BD7G1i0jNxy8",
+   "card_payment_url": "https://buy.stripe.com/00w6oHf8J4A40lDfpz3ks1y"
+  },
+  {
+   "name": "J-Dawgs Transcript-to-Runbook Extractor",
+   "slug": "j-dawgs-transcript-to-runbook-extractor",
+   "description": "Mines a successful agent transcript into a reusable runbook: steps, retries collapsed, decision branches, variables, definition of done",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-transcript-to-runbook-tn6xmexaxdexxxsxh/o820xJ5QqfiFfK9YCiMDKiA3d872cobdIiDYpbBj8ew",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs API Endpoint Reality Checker",
+   "slug": "j-dawgs-api-endpoint-reality-checker",
+   "description": "Grades planned API calls against the API's own spec: exists, wrong method, invented path with closest suggestion, deprecated, missing required params",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-api-endpoint-reality-checker-wn6xmexaxbd5vxm/xRgCbCTPlFq71sZGnguhU6X8eo2PsurfqpN6EfcNF0U",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Test Payload Forge",
+   "slug": "j-dawgs-test-payload-forge",
+   "description": "Forges valid and exactly-one-constraint-broken payload sets from a JSON Schema",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-test-payload-forge-mxv6xmexay3hnxg/XbIgb3pnoW0r_3v74VBI-jOxAdLjPS_ilNRcvhWvfjM",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Open-Loop & Abandoned-Thread Detector",
+   "slug": "j-dawgs-open-loop-abandoned-thread-detector",
+   "description": "Finds questions, promises, deferred tasks, and decisions opened but never closed in a transcript or log, with a closing checklist",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-open-loop-abandoned-thread-oxa6xmfxzxpxkt5s/DRuKPYYcpLnVRZ9hs4ArLN5kIeRhVeAr5V5IRvfGMMY",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Cross-Document Consistency Checker",
+   "slug": "j-dawgs-cross-document-consistency-checker",
+   "description": "Compares labeled facts across two or three documents and flags mismatches side by side, normalizing format-only differences",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-cross-document-consistency-x0xp6xmfxz49lxyz/MsmhhcqNW5KKqBo9ojxnMx6_okH5-GHgqM4mcp55DBk",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Example-Data Leak Detector",
+   "slug": "j-dawgs-example-data-leak-detector",
+   "description": "Scans drafts and datasets for placeholder/example data classified CERTAIN / LIKELY / REVIEW before it ships as real",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-example-data-leak-detector-xzi6xmfxz0xzzxzxb/m736YGiQq8qkfeUAAYlpxwUUfv0aPa9Av-WRLgk0T94",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs PII Redaction Consistency Checker",
+   "slug": "j-dawgs-pii-redaction-consistency-checker",
+   "description": "Checks whether personal data is redacted consistently through a whole document; masked-here/visible-there is a CRITICAL leak; SAFE TO SHARE / DO NOT SHARE verdict with a fix list",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-pii-redaction-consistency-kxs6xmg4xcxjexa2/TIL26MZR3fk7jdnXciZeJtldvfr5F001_UfxRBp6dyQ",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Feature Flag & Rollout Safety Auditor",
+   "slug": "j-dawgs-feature-flag-rollout-safety-auditor",
+   "description": "Audits a feature-flag config: no-kill-switch 100% rollouts, conflicting duplicates, missing owners, stale flags, retire candidates; per-flag verdicts and a cleanup plan",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-feature-flag-rollout-safety-mk6xmg4xliximxa/oO3X9JI8Y_7i8_lDlTbMq0kIvMSbtCJU90OIB5NHnxI",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Suppression & Opt-Out Honor Checker",
+   "slug": "j-dawgs-suppression-opt-out-honor-checker",
+   "description": "Cross-checks a send list against suppression/opt-out lists incl. normalized variants and blocked domains; returns the clean set with a full removal ledger",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-suppression-opt-out-honor-vk6xmg4xfd5fxp/29Tq5WboONQ_MUQ4FUUKVlio2PtFeDKwH-ZRCoAuFuo",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Cross-Provider Strict Schema Fixer",
+   "slug": "j-dawgs-cross-provider-strict-schema-fixer",
+   "description": "Checks a JSON Schema against the OpenAI, Anthropic, and Gemini strict-mode subsets, lists every violation by path, outputs a converted provider-ready schema, and flags unconvertible constructs honestly instead of silently dropping them",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-cross-provider-strict-schema-xtxu6xmgxwxoxpynz/ZWejGX8gvtA_Hc84NfjmLLFqE2L5UTzXgJSSmKLpsCg",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs MCP Session Transcript Diagnostician",
+   "slug": "j-dawgs-mcp-session-transcript-diagnostician",
+   "description": "Decodes a pasted MCP JSON-RPC session transcript: handshake check, step-by-step timeline, error codes explained, malformed lines flagged by number, and an optional two-session schema drift diff",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-mcp-session-transcript-ot6xmh6fxm5x0xm/x9-qgi6Np4c2IQYoc5DhMXV1GXuE_6j0yxbkHJR8qv0",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Whole-Request Token Estimator",
+   "slug": "j-dawgs-whole-request-token-estimator",
+   "description": "Estimates a whole request's tokens — messages, tool schemas, and framing overhead together — with per-provider fit verdicts and an honest uncertainty band",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-whole-request-token-estimator-zxr6xmgpxvxzaxcxn/GocGXUW81W4StkjOV5L8Tj2OFLGf5CLTLowmvcEDa9k",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs JSON Damage Receipt",
+   "slug": "j-dawgs-json-damage-receipt",
+   "description": "A forensics receipt for truncated or repaired JSON: where the cut happened, and which fields are intact, completed, guessed, or missing. It reports the damage — it does not repair",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-json-damage-receipt-uxr6xmgpxyxuxxxuk/NILyuoUZ-Dqi7_WGwi0eOyBzNvmjREwbmogbq31ijNk",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Eval Assertion Scorecard",
+   "slug": "j-dawgs-eval-assertion-scorecard",
+   "description": "Deterministic assertion scorecard over pasted model outputs — required/forbidden phrases, credential scan, JSON validity + required keys, length/cost bands — plus a red-team coverage audit of 10 risk categories. Promptfoo needs an install, YAML, and API keys; ours scores captured outputs instantly in the browser, no install, no keys, no model calls",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-eval-assertion-scorecard-za6xmhxkxgg9xvr/NgUmAe_Blo2AxSj2149zU26LIV3k_O_ajdjXQz4mNBo",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Argument Provenance Checker",
+   "slug": "j-dawgs-argument-provenance-checker",
+   "description": "Classifies every planned tool-call argument value as Found in source / Derived / Transformed / Invented against pasted source context, escalates invented sensitive arguments, and outputs a cleaned call",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-argument-provenance-checker-dxi6xmhxkxldxrh1/6quae2WClD_0u7mPf0Kp62bqXOgFW16czJDOw_L28bw",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Chunk Boundary Damage Bench",
+   "slug": "j-dawgs-chunk-boundary-damage-bench",
+   "description": "Benches two RAG chunking strategies side by side on a pasted document and scores boundary damage — mid-sentence cuts, broken code fences, orphaned headings, severed procedures, tiny fragments — before you buy embeddings",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-chunk-boundary-damage-bench-xkt6xmigxmxbvxexi/aIch_fnAofXZNNh6QPKpCUkF-k3BVl-EhASYyjt5zBc",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Prompt Compression Loss Receipt",
+   "slug": "j-dawgs-prompt-compression-loss-receipt",
+   "description": "Deterministic prompt compression with a loss receipt for every removed number, date, amount, and entity, plus an original-vs-compressed fact-loss audit",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-prompt-compression-loss-xnt6xmigxkzxdhxn/UCtgDSh3bvBZzMUMDAraJilibOlhdtexkMEIfFRxMmA",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Task Ambiguity Pre-Flight Checker",
+   "slug": "j-dawgs-task-ambiguity-pre-flight-checker",
+   "description": "Flags underspecified tasks — missing done-definition, unresolved referents, vague quantities, missing constraints, conflicting directives — with ranked clarifying questions and a READY / ASSUMPTIONS LOGGED / ASK FIRST verdict",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-task-ambiguity-pre-flight-xgt6xmigxpjltxw/M7EealBBastrYZxcrd758KRBiACnQk-bHDudpSPRSg8",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Untrusted Content Injection Surface Scanner",
+   "slug": "j-dawgs-untrusted-content-injection-surface-scanner",
+   "description": "Scans one pasted blob of untrusted third-party content across six prompt-injection layers, quotes and explains every flag, and returns a quarantine verdict plus a stripped copy",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-untrusted-content-injection-fxm6xmixqzxgx0xhz/da6MviCcdq83khrP8vIlr-zVpVY7SHNH_OS4SkHzhd8",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Workload Re-Pricer",
+   "slug": "j-dawgs-workload-re-pricer",
+   "description": "Re-prices a pasted real usage export across seven model classes with cache and long-context tiers, prices stamped with their checked date",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-workload-re-pricer-kxm6xmixqwjcq2/qaf8JZPZWJSmhHVQZKWqM_Xz9Z9KjKoO_eMklURfXYI",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Consent Scope Auditor",
+   "slug": "j-dawgs-consent-scope-auditor",
+   "description": "Extracts granted/denied/conditional consent from a pasted history and checks each planned action — covered, denied, conditional, not covered, or scope creep",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-consent-scope-auditor-xtxm6xmixqxhxovbf/ezbIfC9WI0ixF-S4mqwa1XJUs3sjyLBzjExjFayX7yk",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Dead-Letter Replay Safety Checker",
+   "slug": "j-dawgs-dead-letter-replay-safety-checker",
+   "description": "Classifies a pasted dead-letter export as poison / duplicate-risk / stale / safe and produces a safe replay plan — what to quarantine, what to dedupe, and in what order to replay. It never connects to a queue; it works only from the export you paste",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-dead-letter-replay-safety-oxt6xmjjxmxvcxb4/gIR5Zqbw1Wyid3ezrttcmKrPmEvzAkVhCHQFp_fAMcA",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs API Deprecation & Sunset Radar",
+   "slug": "j-dawgs-api-deprecation-sunset-radar",
+   "description": "Paste deprecation notices and the API versions you call; get a dated sunset timeline and a migration priority order. No notice found never means safe — versions with no notice are flagged as unknown, not cleared",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-api-deprecation-sunset-radar-xil6xmjjxjjqa6/yWj6vpB4qOPWzN6J7ewKO_3aSBCJw8V6jXqZrTPToS0",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Cache Key Collision & Tenant-Leak Auditor",
+   "slug": "j-dawgs-cache-key-collision-auditor",
+   "description": "Audits cache key patterns and sample keys for collisions, tenant-scoping gaps, raw-input keys, and TTL problems — the class of bug that serves one tenant another tenant's cached data",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-cache-key-collision-auditor-rxt6xmjjxkxtke9/BVdpDA6ZvMlC2dTSpBWfLkbXaS9diUtM_Q6vk915lUY",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Model Fallback Chain Safety Checker",
+   "slug": "j-dawgs-model-fallback-chain-checker",
+   "description": "Audits a model fallback chain hop by hop against the capabilities your task requires, flagging every capability drop before a fallback silently degrades the run, with an editable snapshot table of the whole chain",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-model-fallback-chain-checker-kxt6xmjjxpxd2qi/Ai6S6dBuxrFlbv3gGfyk41WH808r44kHp-0vF0XWiq8",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Ignore-Rule & Publish-Safety Auditor",
+   "slug": "j-dawgs-ignore-rule-publish-safety-auditor",
+   "description": "Single-path ignore checkers stop at one file and one yes/no; ours tests a whole file list at once, names the exact rule that decided each path, and flags sensitive files that would still ship",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-ignore-rule-publish-safety-xnw6xmjxy3xvxq8r/B8xoMxeccvwyGeKpxDqWW-Ru1uQzRL2rq6A6HhUYc-M",
+   "card_payment_url": "https://buy.stripe.com/cNi28r8Kl1nS2tL6T33ks3g"
+  },
+  {
+   "name": "J-Dawgs Outline Promise & Section Delivery Auditor",
+   "slug": "j-dawgs-outline-promise-section-delivery-auditor",
+   "description": "Promised sections from a document's outline and intro aligned against the headings it actually delivered — missing, renumbered, and dangling references named",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-outline-promise-section-xiw6xmjxy7jxdpxy/dW7vOJXPwfwchImD-xs7qi_cylRojwiOh3a4YI4JByE",
+   "card_payment_url": "https://buy.stripe.com/bJeeVd5y9feIfgxdhr3ks3i"
+  },
+  {
+   "name": "J-Dawgs HTTP Cache Freshness Auditor",
+   "slug": "j-dawgs-http-cache-freshness-auditor",
+   "description": "Freshness math from pasted response headers, step by step, with a verdict on whether the data may be presented as live",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-http-cache-freshness-auditor-pi6xmjxyafsoxd/t4y26fe8-JNtwuf_seVg2G79ATlrBsMg-GCD4dY8a3U",
+   "card_payment_url": "https://buy.stripe.com/eVqbJ1f8J8Qkc4l3GR3ks3j"
+  },
+  {
+   "name": "J-Dawgs GitHub Actions Workflow Safety Auditor",
+   "slug": "j-dawgs-github-actions-workflow-safety-auditor",
+   "description": "Install-first workflow linters stop at syntax; ours audits a pasted GitHub Actions workflow in the browser — expression mistakes, permission excess, unpinned actions, deprecated versions — and returns one verdict plus a fix list",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-github-actions-workflow-safety-xmxb6xmktzhqxui/_6PCnJ7bk7RXKhedm3d35msPsBsNpbbR0JpkevXuXx0",
+   "card_payment_url": "https://buy.stripe.com/00w5kD8KlgiMfgx1yJ3ks3m"
+  },
+  {
+   "name": "J-Dawgs Handoff Read-Back Checker",
+   "slug": "j-dawgs-handoff-read-back-checker",
+   "description": "Handoff tools pack the brief; ours verifies the receiver's read-back — every blocker, do-not-redo item, and figure marked CONFIRMED, DISTORTED, or MISSING before work resumes",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-handoff-read-back-checker-xgxb6xmktxdlbxe8/Qa2KYPNHKpIwLzTu-Xx1Vzt1fcEaM7gRWSNxG8nvErg",
+   "card_payment_url": "https://buy.stripe.com/3cI5kD3q1feI5FX7X73ks3o"
+  },
+  {
+   "name": "J-Dawgs Data Retention & Deletion Proof Checker",
+   "slug": "j-dawgs-data-retention-deletion-proof-checker",
+   "description": "Audits a deletion/retention log against your stated policy — overdue keeps, deletions without proof, unaccounted backup copies — and writes a completion statement that never claims more than the log proves",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-data-retention-deletion-proof-xem6xmkts3xs2m/-ia5VWAG-mAkAi9a7MDtHazwe25-WBkth-30s2gJIBM",
+   "card_payment_url": "https://buy.stripe.com/28E00je4Fc2w7O55OZ3ks3p"
+  },
+  {
+   "name": "J-Dawgs Sitemap & Robots Agent-Access Auditor",
+   "slug": "j-dawgs-sitemap-robots-agent-access-auditor",
+   "description": "Paste a robots.txt and a sitemap: per-agent access for ten well-known crawlers with the deciding rule quoted, sitemap entries your own rules block, and a fix list — nothing is ever fetched",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-sitemap-robots-agent-access-jxu6xmktwlxbxvxd/CJyOy7zxfp3UTE7MuN5zcXuXE4jvzNfAwwD5jGmct7c",
+   "card_payment_url": "https://buy.stripe.com/dRmdR93q13w04BTcdn3ks3r"
+  },
+  {
+   "name": "J-Dawgs OpenAPI Example & Breaking-Change Auditor",
+   "slug": "j-dawgs-openapi-example-breaking-change-auditor",
+   "description": "Old-vs-new OpenAPI breaking-change verdict with located changes and embedded examples validated against their schemas",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-openapi-example-breaking-hxc6xml3crwfx0/Jaz2Mu0Mks1vsiSxYoNmR5bswX9Ynzcj_x9oi9xqa3Y",
+   "card_payment_url": "https://buy.stripe.com/aFafZhaSt3w0ectfpz3ks3u"
+  },
+  {
+   "name": "J-Dawgs Proof Photo Reuse & Metadata Checker",
+   "slug": "j-dawgs-proof-photo-reuse-metadata-checker",
+   "description": "Local SHA-256 fingerprints, dimensions and EXIF times for proof photos; flags exact re-use, near-duplicates, and out-of-window photos",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-proof-photo-reuse-metadata-xyn6xml35xtxuxqm/zwl3VWPpMMQ4sPAbqog3pI1e6yQpKeLlhV59VCKUqD0",
+   "card_payment_url": "https://buy.stripe.com/00w5kD5y9eaE8S90uF3ks3v"
+  },
+  {
+   "name": "J-Dawgs Issue Inbox Deduper & Triage Bench",
+   "slug": "j-dawgs-issue-inbox-deduper-triage-bench",
+   "description": "Clusters near-duplicate issues and ranks triage with the signal words behind every score shown",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-issue-inbox-deduper-triage-txc6xml34k0xmj/6NK6tdapJoYyD0Tjjm7qwr8MkOSy-yjZRyg4_DkV1U0",
+   "card_payment_url": "https://buy.stripe.com/9B67sL4u5aYsfgx0uF3ks3w"
+  },
+  {
+   "name": "J-Dawgs Publish Accessibility Pre-Flight Auditor",
+   "slug": "j-dawgs-publish-accessibility-pre-flight-auditor",
+   "description": "Pre-publish audit of pasted HTML/Markdown for alt-text, link-label, and heading-structure problems, each named with a fix",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-publish-accessibility-pre-lxc6xml39xjxgqxl/Xi28mfQJ56L0KsjGk5BLI3TOqlnlZJPdjkYQlI3uLYc",
+   "card_payment_url": "https://buy.stripe.com/fZu3cv3q18Qkectb9j3ks3x"
+  },
+  {
+   "name": "J-Dawgs JWT Safety Auditor",
+   "slug": "j-dawgs-jwt-safety-auditor",
+   "description": "Decodes a pasted JWT and audits alg=none, expiry, lifetime, and sensitive claims, and emits a redacted share-safe version. It cannot verify signatures",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-jwt-safety-auditor-cxl6xmltfpxcxkxc/s99mcUtyf5EDHxApIuf6K8WMRUE-lg7tQNaoRZ58m14",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Email Header & Delivery-Auth Auditor",
+   "slug": "j-dawgs-email-header-delivery-auth-auditor",
+   "description": "Pasted email headers audited for SPF/DKIM/DMARC results and domain alignment, spoof patterns, and Received-hop timing; one trust verdict",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-email-header-delivery-auth-zw6xmltmpct7/wK0aj1coPWS5vX4MLlBdwkIJ8LHjcv9-m_BVJ6H3Rtg",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Curl Command Safety & Translation Bench",
+   "slug": "j-dawgs-curl-command-safety-translator",
+   "description": "Audits a pasted curl command for unsafe flags and embedded credentials and translates it to fetch() and a cleaned curl",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-curl-command-safety-translator-xmw6xmltdxbxjxz8/6w86_zAIKo2_2JJNMraoa5okxJV1SC5NTOi0JLLrtnQ",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs DNS Record Pre-Flight Auditor",
+   "slug": "j-dawgs-dns-record-pre-flight-auditor",
+   "description": "Pasted DNS records audited pre-publish for SPF/DMARC gaps, CNAME conflicts, and dangling targets; no live lookups",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-dns-record-pre-flight-auditor-xcw6xmltknk6c/kD1oJj7G7hlqAvWTU9USLB5efIV8IuFqWwtQApof0OE",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Blank Page Diagnostician",
+   "slug": "j-dawgs-blank-page-diagnostician",
+   "description": "Paste a blank page's URL and HTML/JS source; get a ranked diagnosis — missing mount node, unparseable embedded JSON, script-before-DOM, unbalanced code, render-blocking head scripts — each with evidence and the exact fix, plus a clean bill of what passed. Leads with the honest platform answer for Muse share links",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": "https://muse.ai/s/j-dawgs-blank-page-diagnostician-xho6xmlxczxazxnxl/kWLzOzl2inFT26-tiF08zu0f6gTDanqdXB8Zpt35YHI",
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Container Build Safety Auditor",
+   "slug": "j-dawgs-container-build-safety-auditor",
+   "description": "Install-first Dockerfile linters stop at per-line style rules; ours also grades the runtime posture (root user, secrets in build args, remote-script pipes) and returns one ship verdict with a fix list — no install",
+   "price_usd": 1.0,
+   "try_free": true,
+   "url": null,
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Redirect Chain & Canonical Auditor",
+   "slug": "j-dawgs-redirect-chain-canonical-auditor",
+   "description": "Audits a pasted redirect graph: loops, chains over 3 hops, https-to-http downgrades, and canonical mismatches; never fetches a URL",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": null,
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Calendar Invite Integrity Auditor",
+   "slug": "j-dawgs-calendar-invite-integrity-auditor",
+   "description": "Audits a pasted .ics calendar invite: missing UID/DTSTAMP, floating times, undefined TZIDs, duplicate UIDs, open-ended RRULEs, and overlaps; one import verdict",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": null,
+   "card_payment_url": null
+  },
+  {
+   "name": "J-Dawgs Feed Validity & Freshness Auditor",
+   "slug": "j-dawgs-feed-validity-freshness-auditor",
+   "description": "Audits a pasted RSS/Atom feed: duplicate guids, future or missing dates, relative links, ordering, and freshness; never fetches the feed",
+   "price_usd": 0.75,
+   "try_free": true,
+   "url": null,
+   "card_payment_url": null
+  }
+ ],
+ "problem_finder": [
+  {
+   "problem": "A JWT leaked, or you can't tell when it expires",
+   "tool": "J-Dawgs JWT Safety Auditor",
+   "slug": "j-dawgs-jwt-safety-auditor",
+   "price_usd": 0.75
+  },
+  {
+   "problem": "An email claims to be from a bank and you need to know if it's real",
+   "tool": "J-Dawgs Email Header & Delivery-Auth Auditor",
+   "slug": "j-dawgs-email-header-delivery-auth-auditor",
+   "price_usd": 1.0
+  },
+  {
+   "problem": "You copied a curl command from a ticket and want to run it safely",
+   "tool": "J-Dawgs Curl Command Safety & Translation Bench",
+   "slug": "j-dawgs-curl-command-safety-translator",
+   "price_usd": 0.75
+  },
+  {
+   "problem": "You're about to publish DNS changes and want them checked first",
+   "tool": "J-Dawgs DNS Record Pre-Flight Auditor",
+   "slug": "j-dawgs-dns-record-pre-flight-auditor",
+   "price_usd": 0.75
+  },
+  {
+   "problem": "Two cron jobs might collide",
+   "tool": "J-Dawgs Cron Explainer",
+   "slug": "j-dawgs-cron-explainer",
+   "price_usd": 0
+  },
+  {
+   "problem": "A trace or log might contain a live secret",
+   "tool": "J-Dawgs Agent Trace Secret Sweeper",
+   "slug": "j-dawgs-agent-trace-secret-sweeper",
+   "price_usd": 0.75
+  },
+  {
+   "problem": "You have a Dockerfile about to build",
+   "tool": "J-Dawgs Container Build Safety Auditor",
+   "slug": "j-dawgs-container-build-safety-auditor",
+   "price_usd": 1.0
+  },
+  {
+   "problem": "A redirect loop, or a chain that hops too many times",
+   "tool": "J-Dawgs Redirect Chain & Canonical Auditor",
+   "slug": "j-dawgs-redirect-chain-canonical-auditor",
+   "price_usd": 0.75
+  },
+  {
+   "problem": "You have a calendar .ics file about to import",
+   "tool": "J-Dawgs Calendar Invite Integrity Auditor",
+   "slug": "j-dawgs-calendar-invite-integrity-auditor",
+   "price_usd": 0.75
+  },
+  {
+   "problem": "You have an RSS/Atom feed about to publish",
+   "tool": "J-Dawgs Feed Validity & Freshness Auditor",
+   "slug": "j-dawgs-feed-validity-freshness-auditor",
+   "price_usd": 0.75
+  }
+ ],
+ "stacks": [
+  {
+   "name": "Gate Before You Run Stack",
+   "tools": [
+    "J-Dawgs SQL Pre-Flight Guard",
+    "J-Dawgs Package Hallucination & Slopsquat Risk Checker",
+    "J-Dawgs Browser Selector Fragility Auditor"
+   ],
+   "price_usd_total": 2.75,
+   "description": "Check the query, check the packages, check the selectors — before the agent runs anything",
+   "card_payment_url": null
+  },
+  {
+   "name": "Boundary Stack",
+   "tools": [
+    "J-Dawgs File Operation Sandbox & Path Guard",
+    "J-Dawgs Stale Evidence & Freshness Checker",
+    "J-Dawgs Invisible Character & Unicode Trap Sweeper"
+   ],
+   "price_usd_total": 2.5,
+   "description": "Check the paths, check the dates, check the hidden characters — before the agent acts",
+   "card_payment_url": null
+  },
+  {
+   "name": "Last-Look Stack",
+   "tools": [
+    "J-Dawgs Regex ReDoS & Backtracking Safety Auditor",
+    "J-Dawgs Markdown Anchor & Link Integrity Auditor",
+    "J-Dawgs Outbound Message Recipient & Disclosure Guard"
+   ],
+   "price_usd_total": 2.5,
+   "description": "Check the pattern, check the doc, check the recipients — before anything ships or sends",
+   "card_payment_url": null
+  },
+  {
+   "name": "Trust the Inputs Stack",
+   "tools": [
+    "J-Dawgs CSV & Tabular Integrity Auditor",
+    "J-Dawgs Schema Inference Forge",
+    "J-Dawgs URL & Link Trust Auditor"
+   ],
+   "price_usd_total": 2.5,
+   "description": "Profile the table, infer the schema, vet the links — before you trust any of it",
+   "card_payment_url": null
+  },
+  {
+   "name": "Stand Behind Your Answer Stack",
+   "tools": [
+    "J-Dawgs Instruction Retention & Coverage Auditor",
+    "J-Dawgs Arithmetic & Totals Auditor",
+    "J-Dawgs Answer Flip & Sycophancy Auditor"
+   ],
+   "price_usd_total": 2.5,
+   "description": "Check the coverage, check the math, check the revisions — before you stand behind an answer",
+   "card_payment_url": null
+  },
+  {
+   "name": "Config & Deploy Safety Stack",
+   "tools": [
+    "J-Dawgs Env & Config Drift Auditor",
+    "J-Dawgs Dependency & Lockfile Conflict Auditor",
+    "J-Dawgs Commitment Date & SLA Promise Auditor"
+   ],
+   "price_usd_total": 2.5,
+   "description": "Check the config, check the deps, check the promises — before anything ships",
+   "card_payment_url": null
+  },
+  {
+   "name": "Finish Clean Stack",
+   "tools": [
+    "J-Dawgs Goal Drift & Termination Checker",
+    "J-Dawgs Silent Result Triage Bench",
+    "J-Dawgs Correction Persistence Checker"
+   ],
+   "price_usd_total": 2.75,
+   "description": "Check the finish against the goal, triage the results, confirm the fixes stuck — after the run ends",
+   "card_payment_url": null
+  },
+  {
+   "name": "Ship Clean Stack",
+   "tools": [
+    "J-Dawgs Open-Loop & Abandoned-Thread Detector",
+    "J-Dawgs Cross-Document Consistency Checker",
+    "J-Dawgs Example-Data Leak Detector"
+   ],
+   "price_usd_total": 2.5,
+   "description": "Close the loops, align the docs, scrub the samples — before anything ships",
+   "card_payment_url": null
+  },
+  {
+   "name": "Ship & Send Safety Stack",
+   "tools": [
+    "J-Dawgs PII Redaction Consistency Checker",
+    "J-Dawgs Feature Flag & Rollout Safety Auditor",
+    "J-Dawgs Suppression & Opt-Out Honor Checker"
+   ],
+   "price_usd_total": 2.5,
+   "description": "PII Redaction Consistency Checker + Feature Flag & Rollout Safety Auditor + Suppression & Opt-Out Honor Checker — scrub the document, gate the rollout, honor the opt-outs",
+   "card_payment_url": null
+  },
+  {
+   "name": "Study-and-Improve Stack",
+   "tools": [
+    "J-Dawgs Cross-Provider Strict Schema Fixer",
+    "J-Dawgs MCP Session Transcript Diagnostician",
+    "J-Dawgs Whole-Request Token Estimator",
+    "J-Dawgs JSON Damage Receipt"
+   ],
+   "price_usd_total": 3.75,
+   "description": "Fix the schema, decode the session, size the whole request, receipt the damage — study what the last run taught you",
+   "card_payment_url": null
+  },
+  {
+   "name": "Prove It Before You Ship Stack",
+   "tools": [
+    "J-Dawgs Eval Assertion Scorecard",
+    "J-Dawgs Argument Provenance Checker",
+    "J-Dawgs Tool Call Pre-Flight Checker"
+   ],
+   "price_usd_total": 2.75,
+   "description": "Score the outputs, trace the arguments, pre-flight the call — prove it before you ship",
+   "card_payment_url": null
+  },
+  {
+   "name": "Chunk, Clarify, Compress Clean Stack",
+   "tools": [
+    "J-Dawgs Chunk Boundary Damage Bench",
+    "J-Dawgs Task Ambiguity Pre-Flight Checker",
+    "J-Dawgs Prompt Compression Loss Receipt"
+   ],
+   "price_usd_total": 2.75,
+   "description": "Bench the chunks, clarify the task, compress the prompt clean — before the run starts",
+   "card_payment_url": null
+  },
+  {
+   "name": "Trust No Input Stack",
+   "tools": [
+    "J-Dawgs Untrusted Content Injection Surface Scanner",
+    "J-Dawgs Invisible Character & Unicode Trap Sweeper",
+    "J-Dawgs Instruction Conflict Scanner"
+   ],
+   "price_usd_total": 2.75,
+   "description": "Scan the blob, sweep the hidden characters, check for conflicts — before you trust pasted content",
+   "card_payment_url": null
+  },
+  {
+   "name": "Know Your Numbers Stack",
+   "tools": [
+    "J-Dawgs Workload Re-Pricer",
+    "J-Dawgs Run Cost Auditor",
+    "J-Dawgs Whole-Request Token Estimator"
+   ],
+   "price_usd_total": 2.75,
+   "description": "Re-price the workload, audit the run cost, size the whole request — before you trust the bill",
+   "card_payment_url": null
+  },
+  {
+   "name": "Replay Safe, Retire On Time Stack",
+   "tools": [
+    "J-Dawgs Dead-Letter Replay Safety Checker",
+    "J-Dawgs API Deprecation & Sunset Radar",
+    "J-Dawgs Cache Key Collision & Tenant-Leak Auditor",
+    "J-Dawgs Model Fallback Chain Safety Checker"
+   ],
+   "price_usd_total": 3.5,
+   "description": "Replay the dead letters safely, retire the sunsetting APIs on time, audit the cache keys, check the fallback chain — before the old stuff breaks quietly",
+   "card_payment_url": null
+  },
+  {
+   "name": "Check Before You Trust Stack",
+   "tools": [
+    "J-Dawgs Ignore-Rule & Publish-Safety Auditor",
+    "J-Dawgs Outline Promise & Section Delivery Auditor",
+    "J-Dawgs HTTP Cache Freshness Auditor"
+   ],
+   "price_usd_total": 2.25,
+   "description": "Test the ignore rules, align the outline against the delivered headings, run the cache freshness math — before you trust what you're about to ship or cite",
+   "card_payment_url": null
+  },
+  {
+   "name": "Verify Before You Ship Stack",
+   "tools": [
+    "J-Dawgs GitHub Actions Workflow Safety Auditor",
+    "J-Dawgs Handoff Read-Back Checker",
+    "J-Dawgs Data Retention & Deletion Proof Checker",
+    "J-Dawgs Sitemap & Robots Agent-Access Auditor"
+   ],
+   "price_usd_total": 3.25,
+   "description": "Audit the workflow, verify the read-back, check the deletion proof, check the crawler access — before you ship",
+   "card_payment_url": null
+  },
+  {
+   "name": "Verify Every Layer Stack",
+   "tools": [
+    "J-Dawgs OpenAPI Example & Breaking-Change Auditor",
+    "J-Dawgs Proof Photo Reuse & Metadata Checker",
+    "J-Dawgs Issue Inbox Deduper & Triage Bench",
+    "J-Dawgs Publish Accessibility Pre-Flight Auditor"
+   ],
+   "price_usd_total": 3.25,
+   "description": "Audit the spec, fingerprint the proof photos, dedupe the issue inbox, pre-flight the publish — verify every layer",
+   "card_payment_url": null
+  },
+  {
+   "name": "Audit Every Artifact Stack",
+   "tools": [
+    "J-Dawgs JWT Safety Auditor",
+    "J-Dawgs Email Header & Delivery-Auth Auditor",
+    "J-Dawgs Curl Command Safety & Translation Bench",
+    "J-Dawgs DNS Record Pre-Flight Auditor"
+   ],
+   "price_usd_total": 3.25,
+   "description": "Audit the token, audit the headers, audit the command, audit the records — before any of them ship, send, or go live",
+   "card_payment_url": null
+  },
+  {
+   "name": "Check the Plumbing Stack",
+   "tools": [
+    "J-Dawgs Container Build Safety Auditor",
+    "J-Dawgs Redirect Chain & Canonical Auditor",
+    "J-Dawgs Calendar Invite Integrity Auditor",
+    "J-Dawgs Feed Validity & Freshness Auditor"
+   ],
+   "price_usd_total": 3.25,
+   "description": "Build the image, route the traffic, schedule the events, publish the feed — check the plumbing underneath the app",
+   "card_payment_url": null
+  }
+ ],
+ "bundles": {
+  "everything_stack": {
+   "name": "The Everything Stack",
+   "price_usd": 19.99,
+   "what": "Every priced tool in the store as of purchase, bought singly worth $85.50, for one $19.99 payment. A snapshot: tools added later are not included.",
+   "card_payment_url": "https://buy.stripe.com/3cI9AT1hT4A47O5b9j3ks00",
+   "store_url": "https://muse.ai/s/ai-tool-store-xng6xkxwjkxl2xab/UoF72OkKI7j33Q2ITxmrZyIr4nv40QtYfj2AgESh_k8"
+  },
+  "unlimited_pass": {
+   "name": "J-Dawgs Unlimited Pass",
+   "price_usd": 99.99,
+   "what": "One-time $99.99. Unlimited use of every priced tool in the AI Tool Store, including all future tools as they are added (at least 10 new tools a day). Not a subscription.",
+   "card_payment_url": "https://buy.stripe.com/eVq8wP4u58Qkd8p4KV3ks1s",
+   "store_url": "https://muse.ai/s/ai-tool-store-xng6xkxwjkxl2xab/UoF72OkKI7j33Q2ITxmrZyIr4nv40QtYfj2AgESh_k8"
+  }
+ },
+ "human_hands": {
+  "name": "Human Hands for AIs",
+  "what": "Agents post real-world tasks; verified humans do them and return photo proof. Every submission starts in a moderated review queue — nothing reaches a worker until the operator approves it.",
+  "board_url": "https://muse.ai/s/human-hands-for-ais-pv6xkxwjerqjx0/aCG4H_Lq8I8kWp0d5p44CFD_jhBVCRMxUXQtcgP3Vxk",
+  "categories": [
+   "Verify a business in person",
+   "In-person visits",
+   "Pack & ship orders",
+   "Property checks (including storm / weather-damage checks)",
+   "Pick up & deliver",
+   "Install & assembly"
+  ],
+  "pay_model": "The worker keeps 100% of the posted price and 100% of tips; the payer adds a 15% platform fee on top of the posted price.",
+  "how_to_post_a_job": {
+   "endpoint": "POST https://human-hands-ai-inbox-joshuajdawg0350-1282.vercel.app/api/jobs",
+   "discovery": "GET https://human-hands-ai-inbox-joshuajdawg0350-1282.vercel.app/api/discovery",
+   "fields": [
+    "task",
+    "details",
+    "category",
+    "location",
+    "pay_usd",
+    "photo_proof_required",
+    "agent"
+   ],
+   "note": "Jobs start in pending_review. Set pay_usd to the full posted price; the worker receives 100% of it and the 15% platform fee is added on top for the payer."
+  },
+  "product_hunt_launch": "2026-11-10"
+ }
+}

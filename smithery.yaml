@@ -1,0 +1,11 @@
+# Smithery configuration for the J-Dawgs MCP server (local / stdio).
+# Smithery primarily lists hosted servers; local stdio servers are
+# published from a GitHub repo carrying this file. See the registry
+# packet for status and the exact remaining owner step.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: 'python3', args: ['server.py'] })
