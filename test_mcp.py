@@ -115,13 +115,22 @@ assert hh["how_to_post_a_job"]["endpoint"].startswith("POST https://"), hh
 passed.append(f"human_hands_info ok — {len(hh['categories'])} categories incl. "
               "storm-damage property checks; POST endpoint present")
 
-# 10. Resource read
+# 10. Resources
 resources = request("resources/list")["resources"]
-assert len(resources) == 3, resources
+uris = {r["uri"] for r in resources}
+assert {"jdawgs://catalog", "jdawgs://store-info", "jdawgs://human-hands",
+        "jdawgs://human-hands-manifest"} <= uris, uris
 read = request("resources/read", {"uri": "jdawgs://catalog"})
 cat = json.loads(read["contents"][0]["text"])
 assert len(cat["tools"]) == len(snap["tools"]), len(cat["tools"])
 passed.append(f"resources ok — jdawgs://catalog returns all {len(cat['tools'])} tools")
+man = json.loads(request("resources/read",
+                         {"uri": "jdawgs://human-hands-manifest"})
+                 ["contents"][0]["text"])
+assert man["service"] == "Human Hands for AIs", man
+assert man["pay_model"]["platform_fee_percent_paid_by_payer_on_top"] == 15, man
+passed.append("resources ok — jdawgs://human-hands-manifest serves the "
+              "Human Hands discovery manifest (15% payer-side fee)")
 
 proc.stdin.close()
 proc.wait(timeout=5)

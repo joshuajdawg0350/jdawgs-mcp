@@ -1,1 +1,23 @@
-{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","description":"Read-only catalog of the J-Dawgs AI Tool Store (100+ agent tools) plus Human Hands for AIs.","name":"io.github.joshuajdawg0350/j-dawgs-mcp","packages":[{"identifier":"jdawgs-mcp","registryType":"pypi","runtimeHint":"uvx","transport":{"type":"stdio"},"version":"0.1.1"}],"repository":{"source":"github","url":"https://github.com/joshuajdawg0350/jdawgs-mcp"},"title":"J-Dawgs AI Tool Store & Human Hands — Catalog MCP","version":"0.1.1","websiteUrl":"https://muse.ai/s/ai-tool-store-xng6xkxwjkxl2xab/UoF72OkKI7j33Q2ITxmrZyIr4nv40QtYfj2AgESh_k8"}
+{
+ "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+ "description": "J-Dawgs AI Tool Store catalog (100+ agent tools) plus the Human Hands for AIs hiring wrapper: discover, dry-run preview, post, operator status.",
+ "name": "io.github.joshuajdawg0350/j-dawgs-mcp",
+ "packages": [
+  {
+   "identifier": "jdawgs-mcp",
+   "registryType": "pypi",
+   "runtimeHint": "uvx",
+   "transport": {
+    "type": "stdio"
+   },
+   "version": "0.2.0"
+  }
+ ],
+ "repository": {
+  "source": "github",
+  "url": "https://github.com/joshuajdawg0350/jdawgs-mcp"
+ },
+ "title": "J-Dawgs AI Tool Store & Human Hands \u2014 Catalog MCP",
+ "version": "0.2.0",
+ "websiteUrl": "https://muse.ai/s/ai-tool-store-xng6xkxwjkxl2xab/UoF72OkKI7j33Q2ITxmrZyIr4nv40QtYfj2AgESh_k8"
+}
