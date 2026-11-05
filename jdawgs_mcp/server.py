@@ -1,19 +1,33 @@
 #!/usr/bin/env python3
-"""J-Dawgs MCP server — read-only access to the J-Dawgs AI Tool Store
-catalog and Human Hands for AIs discovery, for any MCP client.
+"""J-Dawgs MCP server — the J-Dawgs AI Tool Store catalog plus the
+Human Hands for AIs hiring wrapper, for any MCP client.
 
 Transport: stdio (newline-delimited JSON-RPC 2.0), the standard local
 MCP transport. Dependencies: none — Python 3.9+ standard library only.
 
-The server reads catalog.json (a dated snapshot of the published J-Dawgs
-Agent Exchange catalog) from its own directory and works fully offline.
-It performs NO writes, NO network calls, and holds NO credentials.
+Two halves:
+- The catalog tools (store_info, search_tools, ...) read catalog.json (a
+  dated snapshot of the published J-Dawgs Agent Exchange catalog) from
+  this package and work fully offline. They perform no writes and hold
+  no credentials.
+- The Human Hands tools (human_hands_*) wrap the live Human Hands
+  job-posting inbox API: discovery, a client-side dry-run preview
+  (validation + totals, nothing submitted), real job posting into the
+  moderated queue, and an operator-only job status lookup. Posting needs
+  network access; the catalog half does not. The only credential the
+  server can hold is the operator feed token, read from the
+  HUMAN_HANDS_FEED_TOKEN environment variable when present.
 
 Run:  python3 server.py
 """
 import json
 import os
 import sys
+
+try:
+    from . import human_hands as _hh
+except ImportError:  # running as a loose script, not as a package
+    import human_hands as _hh
 
 def _load_catalog():
     # Package layout (installed): catalog.json ships inside the package.
@@ -31,8 +45,23 @@ def _load_catalog():
 
 CATALOG = _load_catalog()
 
+
+def _load_manifest():
+    # Same two-layout lookup as the catalog: package resource, then file
+    # beside this module.
+    try:
+        from importlib.resources import files
+        return json.loads(files(__package__).joinpath(
+            "human_hands_manifest.json").read_text(encoding="utf-8"))
+    except Exception:
+        pass
+    here = os.path.dirname(os.path.abspath(__file__))
+    with open(os.path.join(here, "human_hands_manifest.json"),
+              encoding="utf-8") as f:
+        return json.load(f)
+
 SERVER_NAME = "jdawgs-mcp"
-SERVER_VERSION = "0.1.0"
+SERVER_VERSION = "0.2.0"
 SUPPORTED_PROTOCOLS = ("2024-11-05", "2025-03-26", "2025-06-18")
 
 TOOLS = [
@@ -113,7 +142,7 @@ TOOLS = [
                        "and exactly how an agent posts a job.",
         "inputSchema": {"type": "object", "properties": {}},
     },
-]
+] + _hh.TOOLS  # live Human Hands hiring tools (discover/preview/post/status)
 
 RESOURCES = [
     {
@@ -131,6 +160,14 @@ RESOURCES = [
     {
         "uri": "jdawgs://human-hands",
         "name": "Human Hands for AIs — categories and how to post (JSON)",
+        "mimeType": "application/json",
+    },
+    {
+        "uri": "jdawgs://human-hands-manifest",
+        "name": "Human Hands for AIs — discovery manifest (JSON)",
+        "description": "The machine-readable Human Hands service manifest: "
+                       "REST endpoints, MCP tools, pay model, categories, "
+                       "and moderation/status terms.",
         "mimeType": "application/json",
     },
 ]
@@ -211,6 +248,8 @@ def call_tool(name, args):
         return {"bundles": CATALOG["bundles"], "stacks": CATALOG["stacks"]}
     if name == "human_hands_info":
         return CATALOG["human_hands"]
+    if name in _hh.TOOL_NAMES:
+        return _hh.call_tool(name, args)
     return {"error": f"Unknown tool {name!r}"}
 
 
@@ -221,6 +260,8 @@ def read_resource(uri):
         return CATALOG["store"] | {"snapshot": CATALOG["snapshot"]}
     if uri == "jdawgs://human-hands":
         return CATALOG["human_hands"]
+    if uri == "jdawgs://human-hands-manifest":
+        return _load_manifest()
     return None
 
 
@@ -243,10 +284,16 @@ def handle(msg):
             "protocolVersion": version,
             "capabilities": {"tools": {}, "resources": {}},
             "serverInfo": {"name": SERVER_NAME, "version": SERVER_VERSION},
-            "instructions": "Read-only J-Dawgs AI Tool Store catalog and Human "
-                            "Hands for AIs discovery. Start with store_info or "
-                            "search_tools. All data is a dated snapshot; the "
-                            "live store adds tools daily.",
+            "instructions": "J-Dawgs AI Tool Store catalog (offline "
+                            "snapshot — start with store_info or "
+                            "search_tools; the live store adds tools "
+                            "daily) plus the Human Hands for AIs hiring "
+                            "wrapper: human_hands_discover fetches the "
+                            "live posting contract, human_hands_preview_job "
+                            "dry-runs a post locally (nothing submitted), "
+                            "human_hands_post_job posts into the moderated "
+                            "queue, and human_hands_job_status is "
+                            "operator-only.",
         })
     if method == "ping":
         return ok({})
